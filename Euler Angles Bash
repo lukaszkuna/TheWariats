@@ -1,0 +1,7 @@
+for ((k=0;k<40;k++))
+    do
+    for ((j=0;j<40;j++))
+        do
+        mpirun -v ./ferret-opt -i newZnO_rTiO2_eulerMismatch_xstl_shell-$j-$k.i  
+        done
+    done
